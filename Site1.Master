@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="semana15_aplicacion_web.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            border-style: solid;
+            border-width: 1px;
+            background-color: #C0C0C0;
+        }
+        .auto-style2 {
+            height: 22px;
+        }
+        .auto-style3 {
+            width: 337px;
+        }
+        .auto-style4 {
+            height: 22px;
+            width: 337px;
+        }
+        .auto-style5 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <p class="auto-style5">
+                CELULARES ESTAR</p>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style3">LOGO</td>
+                    <td colspan="3">MENU HORIZONTAL</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">MENU VERTICAL</td>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        <asp:TreeView ID="TreeView1" runat="server">
+                            <Nodes>
+                                <asp:TreeNode Text="CATEGORIA" Value="CATEGORIA"></asp:TreeNode>
+                                <asp:TreeNode Text="GAMA BAJA" Value="GAMA BAJA"></asp:TreeNode>
+                                <asp:TreeNode Text="GAMA MEDIA" Value="GAMA MEDIA"></asp:TreeNode>
+                                <asp:TreeNode Text="GAMA ALTA" Value="GAMA ALTA"></asp:TreeNode>
+                                <asp:TreeNode Text="CONSULTAS" Value="CONSULTAS"></asp:TreeNode>
+                                <asp:TreeNode Text="ACERCA DE" Value="ACERCA DE"></asp:TreeNode>
+                                <asp:TreeNode Text="AYUDA" Value="AYUDA"></asp:TreeNode>
+                            </Nodes>
+                        </asp:TreeView>
+                    </td>
+                    <td colspan="3">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td colspan="3">INFORMACION DE PAGINA</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style2">PIE DE PAGINA 1</td>
+                    <td class="auto-style2">PIE DE PAGINA 2</td>
+                    <td class="auto-style2">PIE DE PAGINA 3</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <p class="auto-style5">
+        &nbsp;</p>
+</body>
+</html>
