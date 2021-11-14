@@ -22,6 +22,15 @@
             border-width: 1px;
             background-color: blue;
         }
+        .auto-style2 {
+            height: 20px;
+        }
+        .auto-style3 {
+            margin-bottom: 0px;
+        }
+        .nuevoEstilo1 {
+            background-image: url('/BITCOIN.jpg');
+        }
     </style>
 
 </head>
@@ -60,11 +69,14 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/">Categorias</a></li>
-                         <li><a runat="server" href="~/">Medios de pago</a></li>
+                      
+                         
                         
                         <li><a runat="server" href="~/About">Acerca de</a></li>
                         <li><a runat="server" href="~/Contact">Contacto</a></li>
+                      
+                        <li><a runat="server" href="~/WebForm3">Medios de pago</a></li>
+                        
                        
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
@@ -88,14 +100,14 @@
         </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                <table class="auto-style1">
+                <table class="auto-style1" style="background-image: none">
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td class="auto-style2"></td>
+                        <td class="auto-style2"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -107,9 +119,9 @@
                     </tr>
                 </table>
             </asp:ContentPlaceHolder>
-            <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+            <hr class="auto-style3" />
+                <p style="background-color: #FFFF00">&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
             </footer>
         </div>
     </form>

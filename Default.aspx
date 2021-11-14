@@ -5,7 +5,7 @@
     <div class="jumbotron">
         <h1>CELULARES STAR </h1>
         <p class="lead">La mejor tecnologia la encuentras aqui , los dispositivos moviles precio calidad  .</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+       
     </div>
 
     <div class="row">
@@ -15,7 +15,7 @@
              Ofrecemos dispositivos que se adaptan a tus necesidades diarias .
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="btn btn-default" href="WebForm1">Ver catalogo &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -24,7 +24,7 @@
                 Estamos conectados con cualquier parte del mundo pide tu dispositivo sin importar la distancia.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="WebForm2">Solicitar Envio &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
