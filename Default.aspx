@@ -33,7 +33,7 @@
                 Notificanos si es que hay algun problema con tu dispositivo estamos para ayudarte.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="WebForm4">Reportar problema &raquo;</a>
             </p>
         </div>
     </div>
