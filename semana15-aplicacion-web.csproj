@@ -167,6 +167,10 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="APPLE PAY.jpg" />
+    <Content Include="App_Data\Celulares_Star.mdf" />
+    <Content Include="App_Data\Celulares_Star_log.ldf">
+      <DependentUpon>Celulares_Star.mdf</DependentUpon>
+    </Content>
     <Content Include="BANCO AGRICOLA.jpg" />
     <Content Include="BANCO HIPOTECARIO.jpg" />
     <Content Include="BITCOIN.jpg" />
@@ -433,9 +437,7 @@
       <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />

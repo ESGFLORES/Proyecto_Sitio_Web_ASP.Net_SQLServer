@@ -3,7 +3,11 @@
     <p>
     </p>
     <p class="text-left">
+        &nbsp;</p>
+    <p class="text-left">
         <strong style="font-size: 21px; font-style: normal; font-variant: normal; text-transform: none; color: #00FF00">Informacion para el envío:</strong></p>
+    <p class="text-left">
+        &nbsp;</p>
     <p>
         &nbsp;</p>
     <p class="text-left" style="color: #000000; font-size: 15px; font-family: 'Century Gothic';">

@@ -2,9 +2,9 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>CELULARES STAR </h1>
-        <p class="lead">La mejor tecnologia la encuentras aqui , los dispositivos moviles precio calidad  .</p>
+    <div class="jumbotron" style="background-color: #FF6600">
+        <h1 style="font-size: 28px; background-color: #FF6600; font-family: 'Century Gothic';">CELULARES STAR </h1>
+        <p class="lead" style="font-size: 20px">La mejor tecnologia la encuentras aqui , los dispositivos moviles precio calidad  .</p>
        
     </div>
 
