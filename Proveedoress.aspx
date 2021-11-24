@@ -18,11 +18,32 @@
         </h2>
     <form id="form1" runat="server" style="background-color: #C0C0C0">
        
-        <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
+            <asp:ListItem>1010</asp:ListItem>
+            <asp:ListItem>1011</asp:ListItem>
+            <asp:ListItem>1012</asp:ListItem>
+            <asp:ListItem>1013</asp:ListItem>
+            <asp:ListItem>1014</asp:ListItem>
+            <asp:ListItem>1015</asp:ListItem>
+            <asp:ListItem>1016</asp:ListItem>
+            <asp:ListItem>1017</asp:ListItem>
+            <asp:ListItem>1018</asp:ListItem>
+            <asp:ListItem>1019</asp:ListItem>
+            <asp:ListItem>1020</asp:ListItem>
         </asp:DropDownList>
         <br />
         <br />
-        <asp:GridView ID="GridView1" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" Width="1197px">
+        <asp:GridView ID="GridView1" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" Width="1197px" AutoGenerateColumns="False" DataKeyNames="Id_proveedor" DataSourceID="SqlDataSource1">
+            <Columns>
+                <asp:BoundField DataField="Id_proveedor" HeaderText="Id_proveedor" ReadOnly="True" SortExpression="Id_proveedor" />
+                <asp:BoundField DataField="Nombre_del_proveedor" HeaderText="Nombre_del_proveedor" SortExpression="Nombre_del_proveedor" />
+                <asp:BoundField DataField="Direccion" HeaderText="Direccion" SortExpression="Direccion" />
+                <asp:BoundField DataField="Ciudad" HeaderText="Ciudad" SortExpression="Ciudad" />
+                <asp:BoundField DataField="Pais" HeaderText="Pais" SortExpression="Pais" />
+                <asp:BoundField DataField="Telefono" HeaderText="Telefono" SortExpression="Telefono" />
+                <asp:BoundField DataField="Correo" HeaderText="Correo" SortExpression="Correo" />
+                <asp:BoundField DataField="Id_compras" HeaderText="Id_compras" SortExpression="Id_compras" />
+            </Columns>
             <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
             <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
             <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
@@ -33,6 +54,11 @@
             <SortedDescendingCellStyle BackColor="#F1E5CE" />
             <SortedDescendingHeaderStyle BackColor="#93451F" />
         </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [PROVEEDORES] WHERE ([Id_compras] = @Id_compras)">
+            <SelectParameters>
+                <asp:ControlParameter ControlID="DropDownList1" Name="Id_compras" PropertyName="SelectedValue" Type="Int32" />
+            </SelectParameters>
+        </asp:SqlDataSource>
     </form>
 </body>
 </html>
