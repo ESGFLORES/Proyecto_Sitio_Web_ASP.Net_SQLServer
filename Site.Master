@@ -96,9 +96,9 @@
                              <ul>
                                   <li><a runat="server" href="~/Empleadoss">Empleados</a></li>
                                   <li><a runat="server" href="~/Clientess">Clientes</a></li>
-                                  <li><a runat="server" href="~/Contact">Proveedores</a></li>
-                                  <li><a runat="server" href="~/Contact">Ventas</a></li>
-                                  <li><a runat="server" href="~/Contact">Celulares</a></li>
+                                  <li><a runat="server" href="~/Proveedoress">Proveedores</a></li>
+                                  <li><a runat="server" href="~/Ventass">Ventas</a></li>
+                                  <li><a runat="server" href="~/Celularess">Celulares</a></li>
                              </ul>
                         </li>
 
@@ -106,10 +106,10 @@
                             
                            <ul>
                                 <li><a runat="server" href="~/Empleados">Empleados</a></li>
-                                <li><a runat="server" href="~/">Clientes</a></li>
-                                <li><a runat="server" href="~/">Proveedores</a></li>
-                                <li><a runat="server" href="~/">Ventas</a></li>
-                                <li><a runat="server" href="~/">Celulares</a></li>
+                                <li><a runat="server" href="~/Clientes">Clientes</a></li>
+                                <li><a runat="server" href="~/Proveedores">Proveedores</a></li>
+                                <li><a runat="server" href="~/Ventas">Ventas</a></li>
+                                <li><a runat="server" href="~/Celulares">Celulares</a></li>
                            </ul>
                         </li>
 
