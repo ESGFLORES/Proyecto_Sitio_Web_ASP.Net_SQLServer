@@ -183,6 +183,7 @@
     <Content Include="DAVIVIENDA.jpg" />
     <Content Include="Default.aspx" />
     <Content Include="Empleados.aspx" />
+    <Content Include="Empleadoss.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -200,6 +201,7 @@
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="WebForm4.aspx" />
+    <Content Include="Clientess.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -374,6 +376,13 @@
     <Compile Include="Empleados.aspx.designer.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Empleadoss.aspx.cs">
+      <DependentUpon>Empleadoss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleadoss.aspx.designer.cs">
+      <DependentUpon>Empleadoss.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -435,6 +444,13 @@
     </Compile>
     <Compile Include="WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clientess.aspx.cs">
+      <DependentUpon>Clientess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clientess.aspx.designer.cs">
+      <DependentUpon>Clientess.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

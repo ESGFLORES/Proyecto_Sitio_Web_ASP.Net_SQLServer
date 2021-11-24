@@ -92,6 +92,16 @@
                       
                         <li><a runat="server" href="~/WebForm3">Medios de pago</a></li>
 
+                        <li><a runat="server" href="~/">Consultar</a>
+                             <ul>
+                                  <li><a runat="server" href="~/Empleadoss">Empleados</a></li>
+                                  <li><a runat="server" href="~/Clientess">Clientes</a></li>
+                                  <li><a runat="server" href="~/Contact">Proveedores</a></li>
+                                  <li><a runat="server" href="~/Contact">Ventas</a></li>
+                                  <li><a runat="server" href="~/Contact">Celulares</a></li>
+                             </ul>
+                        </li>
+
                         <li><a runat="server" href="~/">Agregar</a>
                             
                            <ul>
