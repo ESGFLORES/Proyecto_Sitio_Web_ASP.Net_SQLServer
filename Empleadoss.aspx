@@ -13,7 +13,7 @@
             Consultar Empleados
         </h2>
         <div style="text-align: center; background-color: #C0C0C0;">
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id_empleados" DataSourceID="SqlDataSource1">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id_empleados" DataSourceID="SqlDataSource1" AllowPaging="True">
                 <Columns>
                     <asp:BoundField DataField="Id_empleados" HeaderText="Id_empleados" ReadOnly="True" SortExpression="Id_empleados" />
                     <asp:BoundField DataField="Nombres" HeaderText="Nombres" SortExpression="Nombres" />

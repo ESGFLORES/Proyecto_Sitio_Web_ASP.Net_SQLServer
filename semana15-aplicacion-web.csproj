@@ -199,6 +199,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="Politicas de Privacidad.aspx" />
     <Content Include="Proveedores.aspx" />
     <Content Include="Proveedoress.aspx" />
     <Content Include="SAMSUMG PAY.jpg" />
@@ -415,6 +416,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Politicas de Privacidad.aspx.cs">
+      <DependentUpon>Politicas de Privacidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Politicas de Privacidad.aspx.designer.cs">
+      <DependentUpon>Politicas de Privacidad.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proveedores.aspx.cs">
       <DependentUpon>Proveedores.aspx</DependentUpon>

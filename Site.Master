@@ -9,25 +9,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - CELULARES STAR</title>
     <style type="text/css">
-        * ul,ol{
-            list-style:none;
-        }
-        .nav li a{
-            color:black;
-            text-decoration:none;
-        }
-        .nav > li{
-            float:left;
-        }
-        .nav li ul{
-            display:none;
-            position:absolute;
-            min-width:140px;
-        }
-        .nav li:hover > ul{
-            display:block;
-        }
-    </style>
+       *{
+           padding:0px;
+           margin:0px;
+       }
+       ul, ol {
+           list-style:none;
+       }
+       .nav li a{
+           text-align:start;
+           background-color:#000000;
+           color:#ffffff;
+           text-decoration:none;
+           padding:10px 10px;
+           display:block;
+          
+           }
+       .nav > li {
+           float:left;
+       }
+       .nav li a:hover{
+           background-color:#474ec4;
+       }
+       .nav li ul{
+           display:none;
+           position:absolute;
+           min-width:initial;
+       }
+       .nav li:hover > ul{
+           display:block;
+       }
+      
+   </style>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -40,7 +53,7 @@
             width: 100%;
             border-style: solid;
             border-width: 1px;
-            background-color: blue;
+            background-color: #000000;;
         }
         .auto-style2 {
             height: 20px;
@@ -77,7 +90,7 @@
         </asp:ScriptManager>
 
         <div class="navbar navbar-inverse navbar-fixed-top" style="left: -1px; right: 1px; top: -1px">
-                    <a class="navbar-brand" runat="server" href="~/">Celulares Star</a>class="container">
+                    <a class="navbar-brand" runat="server" href="~/"></a>class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
@@ -86,7 +99,13 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
                                             
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
+                        <li><a runat="server" href="~/">Acerca de</a>
+                            <ul>
+                                  <li><a runat="server" href="~/About">Nuestra Tienda</a></li>
+                                  <li><a runat="server" href="~/Politicas de Privacidad">Politica de Privacidad</a></li>
+                                  
+                             </ul>
+
 
                         <li><a runat="server" href="~/Contact">Contacto</a></li>
                       
@@ -158,9 +177,29 @@
             <footer>
             <hr class="auto-style3" />
             <div></div> 
-                <p style="background-color: #FFFF00">&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                <p style="background-color: #FFFFFF">&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
             </footer>
         </div>
     </form>
 </body>
 </html>
+
+<div class="copyright" align="center">
+
+<a href="http://www.copyscape.com/"><img src="//banners.copyscape.com/img/copyscape-seal-black-120x100.png" width="120" height="100" border="0" alt="Protected by Copyscape" title="Protected by Copyscape - Do not copy content from this page." /></a>
+
+</div>
+
+<div class="copyright" align="center">
+    <script language="JavaScript">
+        document.write('&copy;');
+        document.write('Celulares_star.com ');
+        document.write(' 2021 - ');
+        document.write(new Date().getFullYear());
+        document.write('Celulares_star.com -Todos los derechos reservados. ');
+        document.write('<br />Fecha Actualizada :');
+        document.write(document.lastModified);
+    </script>
+       </div>
+        
+

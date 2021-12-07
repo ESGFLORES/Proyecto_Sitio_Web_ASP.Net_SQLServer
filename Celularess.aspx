@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Celularess.aspx.cs" Inherits="semana15_aplicacion_web.Celularess" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Celularess.aspx.cs" Inherits="semana15_aplicacion_web.Celularess" %>
 
 <!DOCTYPE html>
 
